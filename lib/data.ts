@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+// import corpcommentImg from "@/public/corpcomment.png";
+// import rmtdevImg from "@/public/rmtdev.png";
+import clothShop from "@/public/clothShop.png";
+import interiorDesign from "@/public/interiorDesign.png";
+import plantShop from "@/public/plantShop.png"
 
 export const links = [
   {
@@ -19,14 +21,14 @@ export const links = [
     name: "Projects",
     hash: "#projects",
   },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Skills",
+  //   hash: "#skills",
+  // },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -62,25 +64,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Fashion Files",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "An eye-catching clothes shop mobile app designed in Figma, featuring trendy layouts, vibrant product displays, and a smooth shopping experience.",
+    tags: ["figma"],
+    imageUrl:clothShop,
+    demoUrl: "https://www.figma.com/design/lL2D6wedNGsZxDgc7Yyhfd/Untitled?node-id=0-1&p=f&t=JFjoAcgP56aRrDsr-0",
   },
   {
-    title: "rmtDev",
+    title: "Golden Designs",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "An elegant interior design website crafted in Figma, showcasing modern layouts, stylish portfolios, and a seamless user experience.",
+    tags: ["figma"],
+    imageUrl: interiorDesign,
+    demoUrl: "https://www.figma.com/design/JxzcoGHUBIjhgptPs9rLCQ/Untitled?node-id=1-2&t=NZcueDhdi5yskzm6-0",
   },
   {
-    title: "Word Analytics",
+    title: "Breath Natural",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A nature-inspired plant nursery website designed in Figma, featuring vibrant greens, user-friendly navigation, and a seamless shopping experience.",
+    tags: ["figma"],
+    imageUrl: plantShop,
+    demoUrl: "https://www.figma.com/design/Bme0kDVYmP5V207ybGeECA/Untitled?node-id=0-1&p=f&t=FU4TXEiM1A0EpXq4-0",
   },
 ] as const;
 

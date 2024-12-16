@@ -17,33 +17,42 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+      <SectionHeading>About Me</SectionHeading>
+<p className="mb-3">
+  After graduating with a degree in{" "}
+  <span className="font-medium">Accounting</span>, I decided to pursue my
+  passion for design. I immersed myself in the world of UI/UX design, and
+  quickly realized that creating visually engaging, user-centered experiences
+  was my true calling. My primary tool is{" "}
+  <span className="font-medium">Figma</span>, where I craft intuitive, seamless
+  interfaces that enhance user interaction.
+</p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+<p className="mb-3">
+  <span className="italic">My favorite part of design</span> is the problem-solving
+  process, where I can turn abstract concepts into tangible, functional designs.
+  I specialize in{" "}
+  <span className="font-medium">UI design, UX research, prototyping, and design systems</span>,
+  always focusing on the user's needs and creating intuitive digital experiences.
+</p>
+
+<p>
+  <span className="italic">When I'm not designing</span>, I enjoy exploring my creative
+  hobbies, including photography and animation. I also love playing video
+  games, watching movies, and spending time with my famliy. I'm constantly learning
+  new design techniques and expanding my skills in areas like{" "}
+  <span className="font-medium">interaction design</span> and{" "}
+  <span className="font-medium">design systems</span>. I am also learning to play the
+  guitar and studying topics such as{" "}
+  <span className="font-medium">history and philosophy</span>.
+</p>
+
+<p>
+  I am currently looking for a{" "}
+  <span className="font-medium">full-time position</span> as a UI/UX designer, where
+  I can contribute to innovative projects and collaborate with a dynamic team.
+</p>
+
     </motion.section>
   );
 }
