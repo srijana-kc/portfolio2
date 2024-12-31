@@ -7,6 +7,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import clothShop from "@/public/clothShop.png";
 import interiorDesign from "@/public/interiorDesign.png";
 import plantShop from "@/public/plantShop.png"
+import coffeeShop from "@/public/coffeeShop.png"
+import cakeShop from "@/public/cakeShop.png"
 
 export const links = [
   {
@@ -80,6 +82,14 @@ export const projectsData = [
     demoUrl: "https://www.figma.com/design/JxzcoGHUBIjhgptPs9rLCQ/Untitled?node-id=1-2&t=NZcueDhdi5yskzm6-0",
   },
   {
+    title: "Cozy Brews",
+    description: "A warm and inviting coffee shop website concept designed in Figma, with earthy tones, sleek typography, and a cozy vibe.",
+    tags: ["figma"],
+    imageUrl: coffeeShop,
+    demoUrl: "https://www.figma.com/design/moXw9ggmRlEsusqcg1ubZI/Untitled?node-id=0-1&p=f&t=jGqEYvwMtrYTkN5H-0",
+  },
+  
+  {
     title: "Breath Natural",
     description:
       "A nature-inspired plant nursery website designed in Figma, featuring vibrant greens, user-friendly navigation, and a seamless shopping experience.",
@@ -87,6 +97,14 @@ export const projectsData = [
     imageUrl: plantShop,
     demoUrl: "https://www.figma.com/design/Bme0kDVYmP5V207ybGeECA/Untitled?node-id=0-1&p=f&t=FU4TXEiM1A0EpXq4-0",
   },
+  {
+    title: "Sweet Delights",
+    description: "A charming cake shop website concept crafted in Figma, featuring pastel tones, intuitive design, and a delightful user experience.",
+    tags: ["figma"],
+    imageUrl: cakeShop,
+    demoUrl: "https://www.figma.com/design/eRxAIQ6vHk0jsp7uJUfK9n/Untitled?node-id=0-1&p=f&t=7LUfwlzEynoxptzb-0",
+  }
+  
 ] as const;
 
 export const skillsData = [
